@@ -2,15 +2,9 @@
     "compilerOptions": {
         "module": "commonjs",
         "target": "es5",
-        "outDir": "./built/",
-        "jsx": "react",
+        "noImplicitAny": false,
         "sourceMap": true,
-        "noImplicitAny": true
-    },
-    "files": [
-        "./typings/main.d.ts",
-        "./src/reddit.ts",
-        "./src/RedditSubmission.tsx",
-        "./src/index.tsx"
-    ]
+        "outDir": "out",
+        "jsx": "react"
+    }
 }

@@ -1,21 +1,22 @@
 {
-  "name": "react-reddit-reader",
+  "name": "react-demo",
   "version": "1.0.0",
-  "description": "A small web app in React that queries Reddit for submissions.",
+  "description": "",
   "main": "index.js",
-  "dependencies": {
-    "jquery": "^2.2.1",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
-  },
-  "devDependencies": {
-    "source-map-loader": "^0.1.5",
-    "ts-loader": "^0.8.1",
-    "typescript": "^1.8.7"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Daniel Rosenwasser",
-  "license": "Apache-2.0"
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^2.0.32",
+    "@types/react": "^0.14.37",
+    "@types/react-dom": "^0.14.17"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.3"
+  }
 }

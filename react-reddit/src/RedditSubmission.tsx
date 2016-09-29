@@ -1,25 +1,22 @@
 import * as React from "react";
-import { Submission } from "./reddit"
+import { Submission } from "./reddit";
+
+let imageStyle = {
+    height: "600px"
+}
 
 export interface SubmissionProps extends Submission {
     elementPosition: number;
 }
 
-let imageStyle = {
-    maxWidth: "600px",
-    maxHeight: "600px",
-};
-
 export const SubmissionComp = (submission: SubmissionProps) =>
     <div style={{ fontFamily: "sans-serif" }}>
-        { submission.elementPosition ? <br /> : "" }
+        {submission.elementPosition ? <br /> : ""}
         <span style={{ fontSize: "1.2rem" }}>
-            <span>{ submission.elementPosition + 1 }.</span>
-            <a href={ submission.url }>{submission.title}</a>
+            <span>{submission.elementPosition + 1}.</span>
+            <a href={submission.url}>{submission.title}</a>
         </span>
-        <span> ({ submission.domain }) </span>
-        <div>
-            Submitted at { new Date(submission.created_utc).toLocaleTimeString() }.
-        </div>
-        <img src={submission.url} style={imageStyle}/>
+        <span> ({submission.domain}) </span>
+        <br/>
+        <img src={submission.url} style={imageStyle} />
     </div>;

@@ -12,5 +12,4 @@ export interface Submission {
     title: string;
     subreddit: string;
     url: string;
-    created_utc: string;
 }
