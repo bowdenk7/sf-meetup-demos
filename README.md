@@ -3,7 +3,7 @@ React/TS and ng2/TypeScript demos attempted at SF HTML 5 Meetup on 9/23
 
 #To run the ng2 sample#
 
-Install the (angular command line tool)[https://cli.angular.io/]
+Install the [angular command line tool](https://cli.angular.io/)
 
 ```> npm install -g angular-cli```
 
