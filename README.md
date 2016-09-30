@@ -5,7 +5,12 @@ React/TS and ng2/TypeScript demos attempted at SF HTML 5 Meetup on 9/23
 
 Install the [angular command line tool](https://cli.angular.io/)
 
-```> npm install -g angular-cli```
+
+```
+> npm install -g node-gyp
+> npm install -g windows-power-tools
+> npm install -g angular-cli
+```
 
 navigate to the `ng2-reddit/helloWorld` folder and install all dependencies by running:
 
