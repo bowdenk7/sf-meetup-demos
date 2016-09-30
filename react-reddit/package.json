@@ -12,7 +12,10 @@
   "dependencies": {
     "@types/jquery": "^2.0.32",
     "@types/react": "^0.14.37",
-    "@types/react-dom": "^0.14.17"
+    "@types/react-dom": "^0.14.17",
+    "jquery": "^3.1.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
   "devDependencies": {
     "source-map-loader": "^0.1.5",
